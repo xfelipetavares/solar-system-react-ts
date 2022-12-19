@@ -30,6 +30,7 @@
   .cardsPlanet {
     flex-direction: column;
     gap: 3.5rem !important;
+    position: relative !important;
 
     .line {
       transform: translateX(-50%) rotate(90deg);
@@ -38,5 +39,4 @@
       left: 50%;
     }
   }
-  
 }

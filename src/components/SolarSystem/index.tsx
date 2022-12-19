@@ -7,7 +7,7 @@ export default function SolarSystem() {
   const result = planets.map((planet) => <PlanetCard key={planet.name} planetName={planet.name} planetImage={planet.image} />);
   return (
     <div className={styles.planets}>
-      <Title headline="Planetas" className={styles.title} />
+      <Title headline="Planetas" />
       <div className={styles.cardsPlanet}>
         <hr className={styles.line} />
         {result}
