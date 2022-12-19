@@ -19,7 +19,7 @@
     .line {
       position: absolute;
       top: 50%;
-      width: 100%;
+      width: 85%;
       z-index: -2;
     }
 
@@ -29,7 +29,7 @@
 @media screen and (max-width: 1290px) {
   .cardsPlanet {
     flex-direction: column;
-    gap: 3.5rem;
+    gap: 3.5rem !important;
 
     .line {
       transform: translateX(-50%) rotate(90deg);
