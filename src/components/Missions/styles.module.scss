@@ -1,3 +1,26 @@
-.header {
-  background: white;
+.missions {
+  width: min(109.8rem, 100%);
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+  background: rgb(221, 221, 221);
+  border-radius: 30px;
+  padding-inline: 1rem;
+
+  h2 {
+    margin-top: 4.2rem;
+    margin-bottom: 3.5rem;
+    font-size: 4rem;
+    color: rgb(36, 36, 36);
+  }
+
+  .missionsCards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
 }
